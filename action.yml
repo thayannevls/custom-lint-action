@@ -1,0 +1,5 @@
+name: 'Custom lint'
+description: 'lint app'
+runs: 
+  using: 'docker'
+  image: 'Dockerfile'

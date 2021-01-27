@@ -1,0 +1,13 @@
+{
+  "name": "action-lint-app-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "lint:app": "eslint -c app-store-eslint.json ."
+  },
+  "devDependencies": {
+    "eslint": "^7.18.0",
+    "eslint-config-vtex": "^12.9.3"
+  }
+}
