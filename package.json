@@ -4,10 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "lint:app": "eslint -c app-store-eslint.json ."
+    "lint:app": "eslint ."
   },
   "devDependencies": {
+    "@vtex/prettier-config": "^0.3.6",
     "eslint": "^7.18.0",
-    "eslint-config-vtex": "^12.9.3"
+    "eslint-config-vtex": "^12.9.3",
+    "prettier": "^2.2.1",
+    "typescript": "^4.1.3"
+  },
+  "dependencies": {
+    "@actions/exec": "^1.0.4"
   }
 }

@@ -1,7 +1,9 @@
 FROM node:slim
 
-COPY . /
+WORKDIR /project
+
+COPY . /project/
 
 RUN yarn
 
-RUN yarn lint:app .
+RUN yarn lint:app
