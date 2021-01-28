@@ -1,8 +1,6 @@
 FROM node:slim
 
-WORKDIR /project
-
-COPY . /project/
+COPY . /
 
 RUN yarn
 
